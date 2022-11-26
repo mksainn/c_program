@@ -11,6 +11,7 @@ int main()
             count = count+i;
         }
     }
+    //it changes
     printf("sum of all even number from 1 to %d = %d ",num,count);
     return 0;
 }
