@@ -1,23 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    int num,rem,arm=0,c;
-    printf("Enter any number");
-    scanf("%d",&num);
-    c=num;
-    while(num>0)
+    int n,rem,sum=0,temp;
+    puts("Enter any number");
+    scanf("%d",&n);
+    temp=n;
+    while(n>0)
     {
-        rem = num%10;
-        arm = (rem* rem*rem) + arm;
-        num = num/10;
+        rem = n%10;
+        sum = sum+rem*rem*rem;
+        n = n/10;
     }
-    if(arm == c)
+    if(temp==sum)
     {
-        printf("Amstrong Number");
+        printf("your given number is amstrong number");
     }
     else
     {
-        printf("not a Amstrong number");
+        printf("your given number is not an amstrong number");
     }
     return 0;
 }
