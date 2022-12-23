@@ -1,0 +1,7 @@
+Git Commands
+
+1. git config --global user.name Mukul :- it set my name on git. 
+2. git config --global user.email mukul09k@gmail.com :- it set my email on git (if i cnages in repo the other see who can chang this ). 
+3. git config --global user.emil :- it show my email 
+4. git config --global user.name :-it show my name
+5. 
