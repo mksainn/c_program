@@ -6,10 +6,10 @@ b. Unmodified
 c. Modified
 d. Staged
 
-1. git config --global user.name Mukul :- it set my name on git. 
-2. git config --global user.email mukul09k@gmail.com :- it set my email on git (if i cnages in repo the other see who can chang this ). 
-3. git config --global user.emil :- it show my email 
-4. git config --global user.name :-it show my name
+1. git config --global user.name Mukul  {it set my name on git} 
+2. git config --global user.email mukul09k@gmail.com  {it set my email on git (if i cnages in repo the other see who can chang this )} 
+3. git config --global user.emil {it show my email} 
+4. git config --global user.name {it show my name}
 5. code . {It open visual stdio code}.
 6. git init   {It will INitialized empty gi t repository (it make .git folder in folder)}
 7. ls -lart   {It show all hidden folder}.
@@ -29,4 +29,12 @@ d. Staged
    type - :wq
    press enter
 10. touch contact.html   {it make empty file }
+
 11.git add -A  {this command add all the file in staging area}
+
+12. git commit -m "added more html" {
+it is the short cut of git commit to give a massage what we chnge("added more html" is a massage)this command is used after git add command}
+
+13. git checkout about.html   {this command undo the present changes to past changes or previous file(about.html is file name)}
+
+
