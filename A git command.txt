@@ -4,4 +4,7 @@ Git Commands
 2. git config --global user.email mukul09k@gmail.com :- it set my email on git (if i cnages in repo the other see who can chang this ). 
 3. git config --global user.emil :- it show my email 
 4. git config --global user.name :-it show my name
-5. 
+5. code . {It open visual stdio code}.
+6. git init   {It will INitialized empty gi t repository (it make .git folder in folder)}
+7. ls -lart   {It show all hidden folder}.
+8. 
