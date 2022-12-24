@@ -1,5 +1,11 @@
 Git Commands
 
+Type of git files or stages:-
+a. Untracked
+b. Unmodified
+c. Modified
+d. Staged
+
 1. git config --global user.name Mukul :- it set my name on git. 
 2. git config --global user.email mukul09k@gmail.com :- it set my email on git (if i cnages in repo the other see who can chang this ). 
 3. git config --global user.emil :- it show my email 
@@ -7,4 +13,20 @@ Git Commands
 5. code . {It open visual stdio code}.
 6. git init   {It will INitialized empty gi t repository (it make .git folder in folder)}
 7. ls -lart   {It show all hidden folder}.
-8. 
+8. git status  {It show the file status where is my file}.
+8. git add sum.c {this command add file to staging area(sum.c is file name) }.
+9. step- 1
+   git commit   {Initial commit (when we starting a project we should take one commit/ it save file structure) }
+   step- 2
+   {after this open web editer.}
+   step- 3
+   press i 
+   after 
+   {we should write one massage(it a massage of commit what to change in my fiel)}
+   step- 4
+   press esc buttom
+   after
+   type - :wq
+   press enter
+10. touch contact.html   {it make empty file }
+11.git add -A  {this command add all the file in staging area}
